@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="WSLoc:war">
+    <output-path>$PROJECT_DIR$/docker-dir</output-path>
+    <root id="archive" name="WSLoc_war.war">
+      <element id="artifact" artifact-name="WSLoc:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/dnsns.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/jfxrt.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/sunec.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/zipfs.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/jaccess.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/nashorn.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/ojdbc14.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/cldrdata.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/sunmscapi.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/sunpkcs11.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/localedata.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/sunjce_provider.jar" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/access-bridge-64.jar" />
+          <element id="library" level="project" name="jboss-jaxrs-api_2.1_spec-1.0.1.Final-redhat-00001" />
+          <element id="file-copy" path="C:/Program Files/Java/jdk1.8.0_221/jre/lib/ext/ojdbc7.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

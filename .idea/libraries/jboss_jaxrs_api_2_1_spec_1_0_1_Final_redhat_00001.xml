@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jboss-jaxrs-api_2.1_spec-1.0.1.Final-redhat-00001">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Programs/jboss-eap-7.2/modules/system/layers/base/javax/ws/rs/api/main/jboss-jaxrs-api_2.1_spec-1.0.1.Final-redhat-00001.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
